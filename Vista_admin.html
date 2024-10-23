@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda de Mangas - ¡Encuentra tu Manga Favorito!</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #0db2e4;
+        }
+        header {
+            background-color: #b3b0b0;
+            color: white;
+            padding: 15px 0;
+            text-align: center;
+        }
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .banner {
+            background-image: url('https://example.com/banner-manga.jpg');
+            background-size: cover;
+            background-position: center;
+            height: 300px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            font-size: 3em;
+        }
+        .section-title {
+            text-align: center;
+            margin: 40px 0 20px 0;
+        }
+        .products {
+            display: flex;
+            justify-content: space-around;
+            margin: 20px 0;
+        }
+        .product {
+            background-color: white;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            width: 30%;
+        }
+        .product img {
+            max-width: 100%;
+            height: auto;
+        }
+        footer {
+            background-color: #b3b0b0;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            margin-top: 40px;
+        }
+        footer p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Pandora Ravagers</h1>
+    <nav>
+        <ul>
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Tienda</a></li>
+            <li><a href="#">Novedades</a></li>
+            <li><a href="#">Contacto</a></li>
+        </ul>
+    </nav>
+</header>
+<h1>Aqui ira un carrusel donde pondra diferentes cantidades de mangas</h1>
+
+<div class="banner">
+    ¡Bienvenido a la mejor tienda de mangas!
+</div>
+
+<section>
+    <button>Agregar</button>
+    <button>Eliminar</button>
+    <button>Cambiar</button>
+    <h2 class="section-title">Mangas Destacados</h2>
+    <div class="products">
+        <div class="product">
+            <img src="https://example.com/manga1.jpg" alt="Manga 1">
+            <h3>Manga 1</h3>
+            <p>Descripción del Manga 1</p>
+            <p><strong>$140</strong></p>
+            <button>cambiar caracteristicas</button>
+
+        </div>
+        <div class="product">
+            <img src="https://example.com/manga2.jpg" alt="Manga 2">
+            <h3>Manga 2</h3>
+            <p>Descripción del Manga 2</p>
+            <p><strong>$220</strong></p>
+            <button>cambiar caracteristicas</button>
+
+        </div>
+        <div class="product">
+            <img src="https://example.com/manga3.jpg" alt="Manga 3">
+            <h3>Manga 3</h3>
+            <p>Descripción del Manga 3</p>
+            <p><strong>$220</strong></p>
+            <button>cambiar caracteristicas</button>
+
+        </div>
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2024 Tienda de Mangas. Todos los derechos reservados.</p>
+    <p>Contacto: Pandora Ravager</p>
+</footer>
+
+</body>
+</html>
